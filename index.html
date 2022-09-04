@@ -11,7 +11,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
     <!-- /JS BOOTSTRAP -->
-    <title>PizzariaNelli</title>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/cc5be3bf49.js" crossorigin="anonymous"></script>
+    <!-- /FONT AWESOME -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/index.css">
+    <!-- /CSS -->
+    <title>Pizzarianelli</title>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -41,7 +47,175 @@
       </nav>
     <!-- /NAVBAR -->
     <!-- INDEX -->
-
+    <!-- Carousel -->
+    <div id="carouselindex" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="bannerfoto" src="img/indexfotos/testeindex.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="bannerfoto" src="img/indexfotos/testeindex.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="bannerfoto" src="img/indexfotos/testeindex.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselindex" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselindex" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- /Carousel -->
+    <!-- FOTO DO QUEM SOMOS -->
+    <div class="conteiner" style="text-align: center;">
+      <img id="quemsomosfoto" src="img/indexfotos/testeindex.webp" class="img-fluid" alt="...">
+    </div>
+    <br><br><br><br><br>
+    <!-- /FOTO DO QUEM SOMOS -->
+    <!-- ICON DE PIZZA -->
+    <div class="conteiner" style="text-align: center;" id="pizzaicon">
+      <div>
+        <a><i class="fa-solid fa-pizza-slice"></i></a>
+      </div>
+    </div>
+    <!-- /ICON DE PIZZA -->
+    <!-- 4 ICONS -->
+    <br><br><br><br><br><br><br>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 g-4" id="quatroicons">
+        <div class="col">
+          <i class="fa-solid fa-wheat-awn"></i></i>
+          <p id="letraquatroicons">Ingredientes frescos e naturais.</p>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-clock"></i>
+          <p id="letraquatroicons">Levamos suas refeições com rapidez.</p>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-fire-burner"></i>
+          <p id="letraquatroicons">Paixão em compartilhar a tradição italiana.</p>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-utensils"></i></i>
+          <p id="letraquatroicons">Atendimento de qualidade.</p>
+        </div>
+      </div>
+    </div>
+    <!-- 4 ICONS -->
+    <!-- ICON DE PIZZA -->
+    <br><br><br><br><br><br><br>
+    <div class="conteiner" style="text-align: center;" id="pizzaicon">
+      <div>
+        <a><i class="fa-solid fa-pizza-slice"></i></a>
+      </div>
+    </div>
+    <br>
+    <!-- /ICON DE PIZZA -->
+    <!-- CONHEÇA NOSSO CARDAPIO -->
+    <div class="container" style="text-align: center;">
+      <h4>CONHEÇA NOSSO CARDÁPIO</h4>
+    </div>
+    <!-- BOTÃO PRO CARDÁPIO -->
+    <br>
+      <div id="divbotao">
+        <a href="cardapio.html" class="btn btn-danger">CONHEÇA NOSSO CARDÁPIO</a>
+      </div>
+    <br><br><br>
+    <!-- /BOTÃO PRO CARDÁPIO -->
+    <!-- /CONHEÇA NOSSO CARDAPIO -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">MOZZARELLA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">MARGHERITA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">BROCCOLI</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">QUATRO QUEIJOS</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">CALABRESE</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">PALMITO</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">PEPPERONI</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">TONNO</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">PARMA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/indexfotos/testeindex.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">CHOCONELLI</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- /INDEX -->
     <!-- FOOTER -->
     <!-- Menu de navegação no rodapé -->
@@ -89,7 +263,7 @@
     
     <!-- Copyright no rodapé -->
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p>Todos direitos reservados - &copy; PizzaNelli by <a href="projetoequipe.html">Equipe</a></p>
+          <p>Todos direitos reservados - &copy; Pizzanelli by <a href="projetoequipe.html">Equipe</a></p>
         </div>
       </footer>
     </div>
