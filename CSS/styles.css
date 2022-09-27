@@ -1,7 +1,121 @@
-/* colocar o link do bootstrap aqui */
-/* colocar o link dos icones do bootstrap aqui */
+#tituloform{
+    text-align: center;
+}
+.contact-form {
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 40px 30px;
+}
+.contact-form .btn {
+	background: red;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 50px;
+	letter-spacing: 2px;
+}
+.map-area {
+	width: 600px;
+	height: 465px;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.map-area iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+/*responsive*/
 
+@media (max-width: 991px) {
+	.contact-form {
+		margin-bottom: 30px;
+	}
+	.map-area {
+		width: 100%;
+		height: 400px;
+	}
+}
+#pizzaicon{
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+}
+p#cardapio_bebidas{
+    text-align: center;
+}
+p#cardapio_menu{
+    text-align: center;
+}
+div#divbotao{
+    text-align: center;
+}
+#pizzaicon{
+    font-size: 30px;
+}
+#bebidaicon{
+    font-size: 30px;
+}
+#timeicon{
+    font-size: 30px;
+}
+#horariosinformativo{
+    text-align: center;
+}
+#informativo{
+    font-size: 30px;
+}
+div#divbotao{
+    text-align: center;
+}
+#pizzaicon{
+    font-size: 30px;
+}
+#quatroicons{
+    text-align: center;
+    font-size: 60px;
+}
+div#divbotao{
+    text-align: center;
+}
+#letraquatroicons{
+    font-size: medium;
+}
+/* CARD DA INDEX */
+h5#cardp{
+    text-align: center;
+}
+/* /CARD DA INDEX */
+/* IMAGENS REDONDAS DEVE SER FEITO PELO PHOTOSHOP COM O FUNDO VAZIO */
+div#divbotao{
+    text-align: center;
+}
+/* IMAGENS REDONDAS DEVE SER FEITO PELO PHOTOSHOP COM O FUNDO VAZIO */
+.map-area {
+	width: 600px;
+	height: 465px;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.map-area iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+/*responsive*/
 
-
-/* teste */
-/*style="text-align: center;"*/
+@media (max-width: 991px) {
+	.contact-form {
+		margin-bottom: 30px;
+	}
+	.map-area {
+		width: 100%;
+		height: 400px;
+	}
+}
+#informativoregioes{
+    text-align: center;
+}
+div#divbotao{
+    text-align: center;
+}
