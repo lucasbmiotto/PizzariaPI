@@ -1,3 +1,4 @@
+/* CSS AJUDA.HTML */
 #tituloform{
     text-align: center;
 }
@@ -38,6 +39,9 @@
 #pizzaicon{
     font-size: 30px;
 }
+/* /CSS AJUDA.HTML */
+
+/* CSS CARDAPIO.HTML */
 h3{
     text-align: center;
 }
@@ -56,6 +60,9 @@ div#divbotao{
 #bebidaicon{
     font-size: 30px;
 }
+/* /CSS CARDAPIO.HTML */
+
+/* CSS HORARIOS.HTML */
 #timeicon{
     font-size: 30px;
 }
@@ -68,6 +75,9 @@ div#divbotao{
 div#divbotao{
     text-align: center;
 }
+/* /CSS HORARIOS.HTML */
+
+/* CSS INDEX.HTML */
 #pizzaicon{
     font-size: 30px;
 }
@@ -86,11 +96,17 @@ h5#cardp{
     text-align: center;
 }
 /* /CARD DA INDEX */
+/* /CSS INDEX.HTML */
+
+/* CSS QUEMSOMOS.HTML */
 /* IMAGENS REDONDAS DEVE SER FEITO PELO PHOTOSHOP COM O FUNDO VAZIO */
 div#divbotao{
     text-align: center;
 }
 /* IMAGENS REDONDAS DEVE SER FEITO PELO PHOTOSHOP COM O FUNDO VAZIO */
+/* /CSS QUEMSOMOS.HTML */
+
+/* CSS REGIOES.HTML */
 .map-area {
 	width: 600px;
 	height: 465px;
@@ -119,3 +135,4 @@ div#divbotao{
 div#divbotao{
     text-align: center;
 }
+/* CSS REGIOES.HTML */
