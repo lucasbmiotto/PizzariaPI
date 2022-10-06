@@ -144,7 +144,11 @@ body{
 	background-color: #d9bea0;
 	}
 nav#navbartopo{
-	background-color: #c72116e7;
+	height: 100px;
+	background-color: #483f36;
+}
+a#itemdanav{
+	color: #cfba9d;
 }
 /* /BODY */
 /* /ESTETICA DO CSS */
