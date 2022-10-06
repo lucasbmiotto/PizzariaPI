@@ -144,11 +144,19 @@ body{
 	background-color: #d9bea0;
 	}
 nav#navbartopo{
+	/* 
+	position: fixed; -> Verificar com uma imagem real
+	*/ 
+	width: 100%;
 	height: 100px;
 	background-color: #483f36;
 }
 a#itemdanav{
 	color: #cfba9d;
+}
+a#navbotao{
+	color: #483f36;
+	background-color: #cfba9d;
 }
 /* /BODY */
 /* /ESTETICA DO CSS */
