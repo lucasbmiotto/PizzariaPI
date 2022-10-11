@@ -1,0 +1,58 @@
+.footer_pizzaria {
+  margin-top: 80px;
+  background: #2a2426;
+}
+
+.container_content {
+ padding-top: 30px;
+}
+.title_footer {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  list-style: none;
+}
+
+.footer_ul li a {
+  text-size: 16px;
+  color: #c6d0db;
+  text-align: left;
+  text-decoration: none;
+  transition: color .5s;
+  text-transform: uppercase;
+}
+
+.footer_ul li a:hover {
+  color: whitesmoke;
+}
+
+.footer_ul_icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.footer_ul_icons li a {
+  color: #c6d0db;
+  transition: color .5s;
+}
+
+.footer_ul_icons li a:hover {
+  color: whitesmoke;
+}
+
+.copy {
+  color: #fff;
+}
