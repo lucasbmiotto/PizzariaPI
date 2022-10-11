@@ -149,15 +149,67 @@ nav#navbartopo{
 	*/ 
 	width: 100%;
 	height: 100px;
-	background-color: #483f36;
+	background-color: #2a2426;
 }
 a#itemdanav{
 	color: #cfba9d;
 }
 a#navbotao{
-	color: #483f36;
+	color: #2a2426;
 	background-color: #cfba9d;
 }
+/* footer */
+.footer_pizzaria {
+	width:100%;
+	margin-top: 80px;
+	background: #2a2426;
+  }
+  .container_content {
+   padding-top: 30px;
+  }
+  .title_footer {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: left;
+	margin-bottom: 10px;
+	color: #fff;
+	text-transform: uppercase;
+  }
+  .footer_ul {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	list-style: none;
+  }
+  .footer_ul li a {
+	color: #c6d0db;
+	text-align: left;
+	text-decoration: none;
+	transition: color .5s;
+	text-transform: uppercase;
+  }
+  .footer_ul li a:hover {
+	color: whitesmoke;
+  }
+  .footer_ul_icons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	list-style: none;
+  }
+  .footer_ul_icons li a {
+	color: #c6d0db;
+	transition: color .5s;
+  }
+  .footer_ul_icons li a:hover {
+	color: whitesmoke;
+  }
+  .copy {
+	color: #fff;
+  }
+/* /footer */
 /* /BODY */
 /* /ESTETICA DO CSS */
 /* /PARTE 2 DO PROJETO */
