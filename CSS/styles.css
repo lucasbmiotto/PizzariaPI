@@ -1,12 +1,19 @@
 /* CSS AJUDA.HTML */
-#tituloform{
-    text-align: center;
+.card {
+	background-color: #2a2426;
+	color: #cfba9d;
 }
+
+#tituloform {
+	text-align: center;
+}
+
 .contact-form {
-	background-color: #fff;
+	background-color: #2a2426;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	padding: 40px 30px;
 }
+
 .contact-form .btn {
 	background: red;
 	text-transform: uppercase;
@@ -14,95 +21,117 @@
 	padding: 10px 50px;
 	letter-spacing: 2px;
 }
+
 .map-area {
 	width: 600px;
 	height: 465px;
-	background: #fff;
+	background: #2a2426;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .map-area iframe {
 	width: 100%;
 	height: 100%;
 	border: none;
 }
+
 /*responsive*/
 
 @media (max-width: 991px) {
 	.contact-form {
 		margin-bottom: 30px;
 	}
+
 	.map-area {
 		width: 100%;
 		height: 400px;
 	}
 }
-#pizzaicon{
-    font-size: 30px;
+
+#pizzaicon {
+	font-size: 30px;
 }
+
 /* /CSS AJUDA.HTML */
 
 /* CSS CARDAPIO.HTML */
-h3{
-    text-align: center;
+h3 {
+	text-align: center;
 }
-p#cardapio_bebidas{
-    text-align: center;
+
+p#cardapio_bebidas {
+	text-align: center;
 }
-p#cardapio_menu{
-    text-align: center;
+
+p#cardapio_menu {
+	text-align: center;
 }
-div#divbotao{
-    text-align: center;
+
+div#divbotao {
+	text-align: center;
 }
-#pizzaicon{
-    font-size: 30px;
+
+#pizzaicon {
+	font-size: 30px;
 }
-#bebidaicon{
-    font-size: 30px;
+
+#bebidaicon {
+	font-size: 30px;
 }
+
 /* /CSS CARDAPIO.HTML */
 
 /* CSS HORARIOS.HTML */
-#timeicon{
-    font-size: 30px;
+#timeicon {
+	font-size: 30px;
 }
-#horariosinformativo{
-    text-align: center;
+
+#horariosinformativo {
+	text-align: center;
 }
-#informativo{
-    font-size: 30px;
+
+#informativo {
+	font-size: 30px;
 }
-div#divbotao{
-    text-align: center;
+
+div#divbotao {
+	text-align: center;
 }
+
 /* /CSS HORARIOS.HTML */
 
 /* CSS INDEX.HTML */
-#pizzaicon{
-    font-size: 30px;
+#pizzaicon {
+	font-size: 30px;
 }
-#quatroicons{
-    text-align: center;
-    font-size: 60px;
+
+#quatroicons {
+	text-align: center;
+	font-size: 60px;
 }
-div#divbotao{
-    text-align: center;
+
+div#divbotao {
+	text-align: center;
 }
-#letraquatroicons{
-    font-size: medium;
+
+#letraquatroicons {
+	font-size: medium;
 }
+
 /* CARD DA INDEX */
-h5#cardp{
-    text-align: center;
+h5#cardp {
+	text-align: center;
 }
+
 /* /CARD DA INDEX */
 /* /CSS INDEX.HTML */
 
 /* CSS QUEMSOMOS.HTML */
 /* IMAGENS REDONDAS DEVE SER FEITO PELO PHOTOSHOP COM O FUNDO VAZIO */
-div#divbotao{
-    text-align: center;
+div#divbotao {
+	text-align: center;
 }
+
 /* IMAGENS REDONDAS DEVE SER FEITO PELO PHOTOSHOP COM O FUNDO VAZIO */
 /* /CSS QUEMSOMOS.HTML */
 
@@ -110,68 +139,79 @@ div#divbotao{
 .map-area {
 	width: 600px;
 	height: 465px;
-	background: #fff;
+	background: #cfba9d;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .map-area iframe {
 	width: 100%;
 	height: 100%;
 	border: none;
 }
+
 /*responsive*/
 
 @media (max-width: 991px) {
 	.contact-form {
 		margin-bottom: 30px;
 	}
+
 	.map-area {
 		width: 100%;
 		height: 400px;
 	}
 }
-#informativoregioes{
-    text-align: center;
+
+#informativoregioes {
+	text-align: center;
 }
-div#divbotao{
-    text-align: center;
+
+div#divbotao {
+	text-align: center;
 }
+
 /* CSS REGIOES.HTML */
 
 /* PARTE 2 DO PROJETO */
 /* ESTETICA DO CSS */
 /* BODY */
-body{
+body {
 	background-image: url(../img/allcss/fundo.jpg);
 	background-image: url(../img/allcss/fundo.jpg);
 	font-family: Bodoni MT;
 	color: #483f36;
 	font-size: 110%
-	}
-nav#navbartopo{
+}
+
+nav#navbartopo {
 	/* 
 	position: fixed; -> Verificar com uma imagem real
-	*/ 
+	*/
 	width: 100%;
 	height: 100px;
 	background-color: #2a2426;
 }
-a#itemdanav{
+
+a#itemdanav {
 	color: #cfba9d;
 }
-a#navbotao{
+
+a#navbotao {
 	color: #2a2426;
 	background-color: #cfba9d;
 }
+
 /* footer */
 .footer_pizzaria {
 	margin-top: 80px;
 	background: #2a2426;
-  }
-  
-  .container_content {
-   padding-top: 30px;
-  }
-  .title_footer {
+}
+
+.container_content {
+	padding-top: 30px;
+}
+
+.title_footer {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
@@ -180,48 +220,47 @@ a#navbotao{
 	margin-bottom: 10px;
 	color: #fff;
 	text-transform: uppercase;
-  }
-  
-  .footer_ul {
+}
+
+.footer_ul {
 	display: flex;
 	flex-direction: column;
 	gap: 7px;
 	list-style: none;
-  }
-  
-  .footer_ul li a {
-	text-size: 16px;
+}
+
+.footer_ul li a {
 	color: #c6d0db;
 	text-align: left;
 	text-decoration: none;
 	transition: color .5s;
 	text-transform: uppercase;
-  }
-  
-  .footer_ul li a:hover {
+}
+
+.footer_ul li a:hover {
 	color: whitesmoke;
-  }
-  
-  .footer_ul_icons {
+}
+
+.footer_ul_icons {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	list-style: none;
-  }
-  
-  .footer_ul_icons li a {
+}
+
+.footer_ul_icons li a {
 	color: #c6d0db;
 	transition: color .5s;
-  }
-  
-  .footer_ul_icons li a:hover {
+}
+
+.footer_ul_icons li a:hover {
 	color: whitesmoke;
-  }
-  
-  .copy {
+}
+
+.copy {
 	color: #fff;
-  }
-  
+}
+
 /* /footer */
 /* /BODY */
 /* /ESTETICA DO CSS */
