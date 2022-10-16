@@ -1,4 +1,9 @@
 /* CSS AJUDA.HTML */
+#ajudaimg{
+	height: 540px;
+	width: 710px;
+}
+
 .card {
 	background-color: #2a2426;
 	color: #cfba9d;
