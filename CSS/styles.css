@@ -1,3 +1,16 @@
+/* Logo */
+#logo{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+
+#rodalogo{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+}
+
 /* CSS AJUDA.HTML */
 #ajudaimg{
 	height: 540px;
