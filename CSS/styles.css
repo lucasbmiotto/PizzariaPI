@@ -1,4 +1,4 @@
-/* Logo */
+
 #logo{
 	width: 80px;
 	height: 80px;
@@ -11,7 +11,6 @@
 	border-radius: 100%;
 }
 
-/* CSS AJUDA.HTML */
 #ajudaimg{
 	height: 540px;
 	width: 710px;
@@ -53,8 +52,6 @@
 	border: none;
 }
 
-/*responsive*/
-
 @media (max-width: 991px) {
 	.contact-form {
 		margin-bottom: 30px;
@@ -70,9 +67,6 @@
 	font-size: 30px;
 }
 
-/* /CSS AJUDA.HTML */
-
-/* CSS CARDAPIO.HTML */
 h3 {
 	text-align: center;
 }
@@ -97,9 +91,6 @@ div#divbotao {
 	font-size: 30px;
 }
 
-/* /CSS CARDAPIO.HTML */
-
-/* CSS HORARIOS.HTML */
 #timeicon {
 	font-size: 30px;
 }
@@ -116,9 +107,6 @@ div#divbotao {
 	text-align: center;
 }
 
-/* /CSS HORARIOS.HTML */
-
-/* CSS INDEX.HTML */
 #pizzaicon {
 	font-size: 30px;
 }
@@ -136,24 +124,14 @@ div#divbotao {
 	font-size: medium;
 }
 
-/* CARD DA INDEX */
 h5#cardp {
 	text-align: center;
 }
 
-/* /CARD DA INDEX */
-/* /CSS INDEX.HTML */
-
-/* CSS QUEMSOMOS.HTML */
-/* IMAGENS REDONDAS DEVE SER FEITO PELO PHOTOSHOP COM O FUNDO VAZIO */
 div#divbotao {
 	text-align: center;
 }
 
-/* IMAGENS REDONDAS DEVE SER FEITO PELO PHOTOSHOP COM O FUNDO VAZIO */
-/* /CSS QUEMSOMOS.HTML */
-
-/* CSS REGIOES.HTML */
 .map-area {
 	width: 600px;
 	height: 465px;
@@ -166,8 +144,6 @@ div#divbotao {
 	height: 100%;
 	border: none;
 }
-
-/*responsive*/
 
 @media (max-width: 991px) {
 	.contact-form {
@@ -188,11 +164,6 @@ div#divbotao {
 	text-align: center;
 }
 
-/* CSS REGIOES.HTML */
-
-/* PARTE 2 DO PROJETO */
-/* ESTETICA DO CSS */
-/* BODY */
 body {
 	background-image: url(../img/allcss/fundo.jpg);
 	background-image: url(../img/allcss/fundo.jpg);
@@ -279,7 +250,7 @@ a#navbotao {
 	color: #fff;
 }
 
-/* /footer */
-/* /BODY */
-/* /ESTETICA DO CSS */
-/* /PARTE 2 DO PROJETO */
+#fotoequipeimg{
+	height: 390px;
+	width: 400px;
+}
